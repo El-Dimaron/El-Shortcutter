@@ -4,36 +4,6 @@ import keyboard
 import pyautogui
 
 shortcuts_dict = {
-
-	"rr": "Checked by Content Moderation Team due to Users Reports (post/chat/profile).",
-	"rp\\": "Checked by Content Moderation Team due to Users Reports (profile).",
-	"rpost\\": "Checked by Content Moderation Team due to Users Reports (post).",
-	"rc\\": "Checked by Content Moderation Team due to Users Reports (chat).",
-	"cs\\": "Due to report ID: ",
-
-	"h\\": "(historic violation)",
-	"nr\\": "Non-repeated violation:",
-	"t\\": "timecode - ___).",
-	"fu\\": "Media featuring Third-party Content/Multiple Participants removed (posts/chats).",
-	"another\\": "The user has another account: ",
-
-	"tpc\\": "TOS Third-party Content/Multiple Participants - detected in posts/chats. Alert Pop UP.",
-	"tpcc\\": "TOS Third-party Content/Multiple Participants - detected in chats. Alert Pop UP.",
-	"tpcp\\": "TOS Third-party Content/Multiple Participants - detected in posts. Alert Pop UP.",
-	"tpch\\": "TOS Third-party Content/Multiple Participants - detected in posts/chats/vaults (historic violation).",
-	"tpp\\": "TOS Third-Party Payments - detected in posts/chats/vaults.",
-	"tppc\\": "TOS Third-Party Payments - detected in chats.",
-
-	"sfs\\": "SFS/Promo account - status confirmed",
-	"sfsn\\": "The account cannot be considered as SFS/Promo account",
-
-	"missed\\": "Missed violation from the previous CM Review: ___",
-	"dis\\": "Please disregard my comment ___. Correct one is:",
-	"disp\\": """Please disregard my comment from ___ in the part:
-___.
-Correct one should have been:
-___""",
-
 }
 
 with shelve.open("TestDB") as db:
